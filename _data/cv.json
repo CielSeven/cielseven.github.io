@@ -1,152 +1,160 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Shushu Wu",
+    "email": "ciel77@sjtu.edu.cn",
     "phone": "",
     "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "summary": "I am a Ph.D. student in the Programming Language Group at Shanghai Jiao Tong University, supervised by Prof. Qinxiang Cao. My research focuses on program verification, with particular emphasis on Separation Logic and Relational Hoare Logic. I am especially interested in developing scalable, modular tools to ensure the safety and correctness of programs.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Shanghai",
+      "countryCode": "CN",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "CielSeven",
+        "url": "https://github.com/CielSeven"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Shanghai Jiao Tong University",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
+      "startDate": "Sep 2021",
+      "endDate": "Present",
       "gpa": null,
-      "courses": []
+      "courses": [
+        "Focus: Separation Logic, Relational Hoare Logic, Algorithm Verification, Monads",
+        "Supervisor: Qinxiang Cao, Associate Professor"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "Shanghai Jiao Tong University",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "Sep 2017",
+      "endDate": "June 2021",
       "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "courses": [
+        "Thesis: Functional Correctness Verification of the Red-Black Tree and Its C Implementation",
+        "Supervisor: Qinxiang Cao, Associate Professor"
+      ]
     }
   ],
-  "skills": [],
+  "research": [
+    {
+      "title": "Loop Invariant Generation Based on Large Language Models",
+      "startDate": "2025",
+      "endDate": "present",
+      "summary": "Automatically generates separation logic invariants and abstract program fragments, supporting end-to-end automation for program refinement verification.",
+      "highlights": [
+        "Perform symbolic execution on C programs to obtain verification conditions; generate spatial predicate invariants using in-context learning and expert correction methods.",
+        "Convert spatial predicates within invariants into separation logic predicates with abstract data, and generate corresponding abstract code fragments.",
+        "Successfully generated valid invariants and abstract fragments for linked-list-based programs (e.g., insertions, deletions, reversals)."
+      ]
+    },
+    {
+      "title": "QCP: A Practical Separation Logic-based C Program Verification Tool",
+      "startDate": "2022",
+      "endDate": "present",
+      "summary": "Qualified C Programming Verifier (QCP), a verification tool that integrates annotation-based automatic verification with interactive proving using Rocq.",
+      "highlights": [
+        "Perform symbolic execution on annotated C programs to generate verification conditions automatically.",
+        "SMT solvers verify most conditions automatically, while remaining subgoals are proved interactively using Rocq."
+      ]
+    },
+    {
+      "title": "Imperative Program Verification in Two Phases",
+      "startDate": "2019",
+      "endDate": "2021",
+      "summary": "Introduced a flexible two-phase method for verifying imperative programs, which involves separating the verification process into proving the algorithm's correctness and proving the implementation refines the algorithm.",
+      "highlights": [
+        "Implemented an iterative version of red-black trees with lazy-tagging in Rocq.",
+        "Proved the correctness of the imperative C implementation of the Red-Black Tree algorithm in Verified Software Toolchain (VST) with respect to the algorithm description."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Formal Verification of LiteOS-M Operating System Kernel",
+      "organization": "ZGC Lab, Beijing, China",
+      "startDate": "2024",
+      "endDate": "present",
+      "summary": "Focused on the core modules of a specific LiteOS-M kernel version, proving the refinement relationship between C programs and abstract programs within the modules using tool QCP."
+    },
+    {
+      "title": "Formal Verification of XX Microkernel Operating System",
+      "organization": "Industry, China",
+      "startDate": "2021",
+      "endDate": "2023",
+      "summary": "The system is based on a mature embedded OS with multi-core DSP optimizations. Verifying the correctness of critical kernel modules using concurrent relational logic."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Theorem Prover",
+      "level": "",
+      "keywords": ["Rocq"]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": ["C", "C++", "Python", "Rust", "OCaml", "Haskell"]
+    },
+    {
+      "name": "Natural Languages",
+      "level": "",
+      "keywords": ["Chinese (native speaker)", "English (fluent)"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Encode the ∀∃ Relational Hoare Logic into Standard Hoare Logic",
+      "publisher": "OOPSLA 2025",
+      "releaseDate": "2025-10-01",
+      "website": "",
+      "summary": "Shushu Wu, Xiwei Wu, and Qinxiang Cao."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "A Formal Framework for Naturally Specifying and Verifying Sequential Algorithms",
+      "publisher": "TASE 2025",
+      "releaseDate": "2025-06-08",
+      "website": "",
+      "summary": "Chengxi Yang*, Shushu Wu*, Qinxiang Cao."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Relational Hoare Logic for Sequential Program Verification",
+      "publisher": "SRC at POPL 2025",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "Shushu Wu."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "CS1601 Discrete Mathematics",
+      "institution": "Shanghai Jiao Tong University",
+      "date": "2024-09-01",
+      "role": "Teaching Assistant",
+      "description": "Fall 2024"
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "CS2612 Programming Languages and Compilers",
+      "institution": "Shanghai Jiao Tong University",
+      "date": "2023-09-01",
+      "role": "Teaching Assistant",
+      "description": "Fall 2023"
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }

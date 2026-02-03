@@ -2,6 +2,17 @@
 layout: default
 ---
 
+{% assign page_in_nav = false %}
+{% for item in site.data.navigation.main %}
+  {% assign url_parts = item.url | split: "#" %}
+  {% assign nav_url = url_parts[0] %}
+  {% if nav_url == "" %}{% assign nav_url = "/" %}{% endif %}
+  {% if page.url == nav_url %}
+    {% assign page_in_nav = true %}
+  {% endif %}
+{% endfor %}
+
+{% if page_in_nav %}
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
@@ -22,3 +33,7 @@ layout: default
     {{ content }}
   </div>
 </div>
+{% else %}
+<script>window.location.href = "/";</script>
+<noscript><meta http-equiv="refresh" content="0; url=/" /></noscript>
+{% endif %}
