@@ -52,6 +52,7 @@ Teaching Service
 ======
 * Teaching Assistant, CS1601 Discrete Mathematics, Shanghai Jiao Tong University, Fall 2024
 * Teaching Assistant, [CS2612 Programming Languages and Compilers](https://jhc.sjtu.edu.cn/public/courses/CS2612/2023fall/), Shanghai Jiao Tong University, Fall 2023
+* Teaching Assistant, [CS2612 Programming Languages and Compilers](https://jhc.sjtu.edu.cn/public/courses/CS2612/2022fall/), Shanghai Jiao Tong University, Fall 2022
 
 Skills
 ======
