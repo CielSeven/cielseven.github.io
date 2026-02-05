@@ -6,7 +6,7 @@ permalink: /publication/EncRel
 date: 2025-10-01
 venue: 'Object-oriented Programming, Systems, Languages, and Applications (OOPSLA)'
 authors: '<strong>Shushu Wu</strong>, Xiwei Wu, Qinxiang Cao'
-paperurl: 'http://localhost:4000/files/encreltheory.pdf'
+paperurl: 'https://cielseven.github.io/files/encreltheory.pdf'
 artifacturl: 'https://github.com/CielSeven/EncRelTheory'
 citation: 'Shushu Wu, Xiwei Wu, and Qinxiang Cao. 2025. Encode the ∀∃ Relational Hoare Logic into Standard Hoare Logic. Proc. ACM Program. Lang. 9, OOPSLA2, Article 360 (October 2025), 28 pages.'
 ---
