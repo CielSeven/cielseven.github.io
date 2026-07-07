@@ -9,7 +9,7 @@ redirect_from:
 
 <div id="about" style="position: absolute; top: 0;"></div>
 
-I am a final-year Ph.D. student in the Programming Language Group at Shanghai Jiao Tong University, supervised by Prof. Qinxiang Cao. 
+I am a Ph.D. student in the Programming Language Group at Shanghai Jiao Tong University, supervised by Prof. Qinxiang Cao. 
 
 My research focuses on programming logic, with particular emphasis on Separation Logic and Relational Hoare Logic. I am especially interested in developing scalable, modular tools to ensure the safety and correctness of programs.
 
