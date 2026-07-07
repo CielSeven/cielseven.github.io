@@ -11,12 +11,12 @@ redirect_from:
 
 I am a final-year Ph.D. student in the Programming Language Group at Shanghai Jiao Tong University, supervised by Prof. Qinxiang Cao. 
 
-My research focuses on program verification, with particular emphasis on Separation Logic and Relational Hoare Logic. I am especially interested in developing scalable, modular tools to ensure the safety and correctness of programs.
+My research focuses on programming logic, with particular emphasis on Separation Logic and Relational Hoare Logic. I am especially interested in developing scalable, modular tools to ensure the safety and correctness of programs.
 
 <h1 id="researchpro" style="margin-top: 2em;">Research Interests</h1>
-1. **Program Verification**: separation logic, relational Hoare logic, concurrent separation logic
+1. **Programming Logic**: separation logic, relational Hoare logic, concurrent separation logic
 1. **Monads**: state monads, effect monads, interaction trees
-1. **LLMs for Verification**: loop invariant generation, verification condition (VC) solving
+1. **Automation**: loop invariant generation, verification condition (VC) solving
 
 
 <h1 id="publications" style="margin-top: 2em;">Publications</h1>

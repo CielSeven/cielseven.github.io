@@ -12,10 +12,10 @@ redirect_from:
 Education
 ======
 * Ph.D. in Computer Science, Shanghai Jiao Tong University, Sep 2021 - Present
-  * Focus: Separation Logic, Relational Hoare Logic, Algorithm Verification, Monads
+  * Focus: Separation Logic, Relational Hoare Logic, Algorithms, Monads
   * Supervisor: Qinxiang Cao, Associate Professor
 * Bachelor in Computer Science, Shanghai Jiao Tong University, Sep 2017 - June 2021
-  * Thesis: Functional Correctness Verification of the Red-Black Tree and Its C Implementation
+  * Thesis: Functional Correctness of the Red-Black Tree and Its C Implementation
   * Supervisor: Qinxiang Cao, Associate Professor
 
 Publications
@@ -26,7 +26,7 @@ Publications
 
 Research Projects
 ======
-* **Loop Invariant Generation Based on Large Language Models**, 2025 - present
+* **Loop Invariant Generation**, 2025 - present
 
   Automatically generates separation logic invariants and abstract program fragments, supporting end-to-end automation for program refinement verification. We perform symbolic execution on C programs to obtain verification conditions and generate spatial predicate invariants using in-context learning and expert correction methods. The spatial predicates within invariants are converted into separation logic predicates with abstract data, along with corresponding abstract code fragments. This approach successfully generated valid invariants and abstract fragments for linked-list-based programs (e.g., insertions, deletions, reversals).
 
@@ -38,7 +38,7 @@ Research Projects
 
   Introduced a flexible two-phase method for verifying imperative programs, which involves separating the verification process into proving the algorithm's correctness and proving the implementation refines the algorithm. We implemented an iterative version of red-black trees with lazy-tagging in Rocq, and proved the correctness of the imperative C implementation of the Red-Black Tree algorithm in Verified Software Toolchain (VST) with respect to the algorithm description.
 
-Practical Projects
+<!-- Practical Projects
 ======
 * **Formal Verification of LiteOS-M Operating System Kernel**, From ZGC Lab, Beijing, China, 2024 - present
 
@@ -47,6 +47,7 @@ Practical Projects
 * **Formal Verification of XX Microkernel Operating System**, From Industry, China, 2021 - 2023
 
   The system is based on a mature embedded OS with multi-core DSP optimizations. We verified the correctness of critical kernel modules using concurrent relational logic.
+-->
 
 Teaching Service
 ======

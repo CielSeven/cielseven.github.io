@@ -30,7 +30,7 @@
       "endDate": "Present",
       "gpa": null,
       "courses": [
-        "Focus: Separation Logic, Relational Hoare Logic, Algorithm Verification, Monads",
+        "Focus: Separation Logic, Relational Hoare Logic, Algorithms, Monads",
         "Supervisor: Qinxiang Cao, Associate Professor"
       ]
     },
@@ -42,14 +42,14 @@
       "endDate": "June 2021",
       "gpa": null,
       "courses": [
-        "Thesis: Functional Correctness Verification of the Red-Black Tree and Its C Implementation",
+        "Thesis: Functional Correctness of the Red-Black Tree and Its C Implementation",
         "Supervisor: Qinxiang Cao, Associate Professor"
       ]
     }
   ],
   "research": [
     {
-      "title": "Loop Invariant Generation Based on Large Language Models",
+      "title": "Loop Invariant Generation",
       "startDate": "2025",
       "endDate": "present",
       "summary": "Automatically generates separation logic invariants and abstract program fragments, supporting end-to-end automation for program refinement verification.",
